@@ -31,6 +31,8 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 
 * [Atom](https://atom.io) - Text Editor
 * [JavaScript ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Programming Language
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Markup Language
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - Styling
 * [Google Chrome](https://www.google.com/chrome/) - Browser and Debugging Tool
 
 ### How I made this app
