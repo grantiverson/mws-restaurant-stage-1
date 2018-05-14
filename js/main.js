@@ -1,3 +1,19 @@
+if (!navigator.serviceWorker) {
+  console.log('Service Worker not supported');
+}
+navigator.serviceWorker.register(
+  '/service-worker.js'
+).then(function(registration) {
+  console.log('Service Worker registered! Scope is:',
+  registration.scope);
+}).catch(function() {
+  console.log('Service Worker registration failed!')
+});
+// Later request a one-off sync:
+navigator.serviceWorker.ready.then(function(swRegistration) {
+  return swRegistration.sync.register('foo');
+});
+
 let restaurants,
   neighborhoods,
   cuisines
@@ -141,6 +157,7 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  image.alt = restaurant.name;
   li.append(image);
 
   const name = document.createElement('h1');
