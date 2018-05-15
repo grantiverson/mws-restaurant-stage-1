@@ -12,7 +12,7 @@ class DBHelper {
       const port = 8000 // Change this to your server port
       return `http://localhost:${port}/data/restaurants.json`;
     } else {
-      return 'http://iverson.io/projects/restaurant-reviews/data/restaurants.json';
+      return 'http://restaurant-reviews.iverson.io/data/restaurants.json';
     }
   }
 
