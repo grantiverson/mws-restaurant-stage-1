@@ -4,7 +4,7 @@ I modified this website as a project for my Front-End Web Development Nanodegree
 
 ## Run live
 
-Run it live at [iverson.io/projects/restaurant-reviews](https://iverson.io/projects/restaurant-reviews)
+~Run it live at [iverson.io/projects/restaurant-reviews](https://iverson.io/projects/restaurant-reviews)~
 
 ## Download
 
